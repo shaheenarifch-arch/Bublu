@@ -1,0 +1,1 @@
+import{describe,it,expect}from"vitest";import{ProductScoringEngine}from"../packages/discovery/src/index.js";describe("discovery",()=>{it("calculates target price",()=>expect(new ProductScoringEngine().calculateSellingPrice(10,2,3,.25)).toBe(20))})

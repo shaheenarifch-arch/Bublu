@@ -1,0 +1,34 @@
+{
+  "name": "@bublu/api",
+  "version": "0.2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@bublu/database": "workspace:*",
+    "@bublu/discovery": "workspace:*",
+    "@bublu/pricing": "workspace:*",
+    "@bublu/listings": "workspace:*",
+    "@bublu/intelligence": "workspace:*",
+    "@bublu/reporting": "workspace:*",
+    "fastify": "^5.1.0",
+    "@fastify/cors": "^10.0.1",
+    "@fastify/helmet": "^13.0.1",
+    "zod": "^3.23.8",
+    "@bublu/store-management": "workspace:*",
+    "@bublu/profit-intelligence": "workspace:*",
+    "@bublu/opportunity-engine": "workspace:*",
+    "@bublu/dynamic-pricing": "workspace:*",
+    "@bublu/inventory-sync": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  }
+}
