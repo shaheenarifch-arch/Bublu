@@ -1,0 +1,1 @@
+import{describe,it,expect}from"vitest";import{OpportunityEngine}from"../packages/opportunity-engine/src/index.js";describe("opportunity score",()=>{it("rewards trend and margin",()=>expect(new OpportunityEngine().score({trend:90,competition:20,margin:40,risk:15,shipping:90})).toBeGreaterThan(70))})

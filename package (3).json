@@ -1,6 +1,6 @@
 {
   "name": "@bublu/worker",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/index.ts",
@@ -14,7 +14,10 @@
     "node-cron": "^3.0.3",
     "@bublu/opportunity-engine": "workspace:*",
     "@bublu/profit-intelligence": "workspace:*",
-    "@bublu/inventory-sync": "workspace:*"
+    "@bublu/inventory-sync": "workspace:*",
+    "@bublu/executive-orchestrator": "workspace:*",
+    "@bublu/portfolio": "workspace:*",
+    "@bublu/forecasting": "workspace:*"
   },
   "devDependencies": {
     "@types/node-cron": "^3.0.11",

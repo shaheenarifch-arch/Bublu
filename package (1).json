@@ -1,6 +1,6 @@
 {
   "name": "@bublu/api",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/server.ts",
@@ -24,7 +24,14 @@
     "@bublu/profit-intelligence": "workspace:*",
     "@bublu/opportunity-engine": "workspace:*",
     "@bublu/dynamic-pricing": "workspace:*",
-    "@bublu/inventory-sync": "workspace:*"
+    "@bublu/inventory-sync": "workspace:*",
+    "@bublu/advertising-intelligence": "workspace:*",
+    "@bublu/forecasting": "workspace:*",
+    "@bublu/supplier-health": "workspace:*",
+    "@bublu/portfolio": "workspace:*",
+    "@bublu/command-center": "workspace:*",
+    "@bublu/autonomy": "workspace:*",
+    "@bublu/copilot": "workspace:*"
   },
   "devDependencies": {
     "tsx": "^4.19.2",

@@ -1,0 +1,1 @@
+export const BUBLU_TAGLINE="Find. List. Sell. Scale. Automatically.";

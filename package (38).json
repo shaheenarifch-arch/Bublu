@@ -1,0 +1,23 @@
+{
+  "name": "@bublu/executive-orchestrator",
+  "version": "0.3.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@bublu/database": "workspace:*",
+    "@bublu/portfolio": "workspace:*",
+    "@bublu/forecasting": "workspace:*",
+    "@bublu/supplier-health": "workspace:*",
+    "@bublu/command-center": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  }
+}
