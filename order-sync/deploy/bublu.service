@@ -1,0 +1,9 @@
+[Unit]
+Description=BUBLU Amazon -> CJ order sync (one run)
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=ubuntu
+WorkingDirectory=/opt/bublu
+ExecStart=/opt/bublu/.venv/bin/python -m bublu run
