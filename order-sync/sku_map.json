@@ -1,0 +1,20 @@
+{
+  "_note": "Amazon seller SKU -> CJ variant SKU. Love and Care SKUs are 'LC-' + CJ variant SKU; entries are listed explicitly so any exception can be added here.",
+  "LC-CJJT244475201AZ": {"cj_sku": "CJJT244475201AZ", "name": "Double Row Shoe Rack, 9 Cube", "amazon_price": 44.99},
+  "LC-CJYS245831201AZ": {"cj_sku": "CJYS245831201AZ", "name": "Electric Toothbrush Holder Stand, Diatomite", "amazon_price": 36.99},
+  "LC-CJSB31444850001": {"cj_sku": "CJSB31444850001", "name": "Over the Sink Dish Drying Rack", "amazon_price": 34.99},
+  "LC-CJCS148046301AZ": {"cj_sku": "CJCS148046301AZ", "name": "Satin Sleep Set 4 Piece", "amazon_price": 28.99},
+  "LC-CJJT25714250001": {"cj_sku": "CJJT25714250001", "name": "Decorative Wall Hooks Set", "amazon_price": 24.99},
+  "LC-CJYS245706401AZ": {"cj_sku": "CJYS245706401AZ", "name": "Corner Shower Caddy Shelf", "amazon_price": 26.99},
+  "LC-CJYS25799650001": {"cj_sku": "CJYS25799650001", "name": "Filtered Shower Head, 3 Modes", "amazon_price": 21.99},
+  "LC-CJJT252566401AZ": {"cj_sku": "CJJT252566401AZ", "name": "Magnetic Cable Clips 6 Pack", "amazon_price": 18.99},
+  "LC-CJNS26004300004": {"cj_sku": "CJNS26004300004", "name": "Travel Passport Wallet", "amazon_price": 20.99},
+  "LC-CJNS26325760001": {"cj_sku": "CJNS26325760001", "name": "Car Trunk Organizer 13 Gallon", "amazon_price": 54.99},
+  "LC-CJJT253667601AZ": {"cj_sku": "CJJT253667601AZ", "name": "Coffee Bar Sign with 4 Hooks", "amazon_price": 18.99},
+  "LC-CJCF275909101AZ": {"cj_sku": "CJCF275909101AZ", "name": "Rolling Egg Holder, 36 Eggs", "amazon_price": 39.99},
+  "LC-CJJT254150701AZ": {"cj_sku": "CJJT254150701AZ", "name": "Over the Door Hanging Storage Bag", "amazon_price": 18.99},
+  "LC-CJYS243593502BY": {"cj_sku": "CJYS243593502BY", "name": "Foldable Laundry Hamper", "amazon_price": 44.99},
+  "LC-CJSB247093201AZ": {"cj_sku": "CJSB247093201AZ", "name": "Pull Out Pots and Pans Organizer", "amazon_price": 45.99},
+  "LC-CJNS241360401AZ": {"cj_sku": "CJNS241360401AZ", "name": "Purse Organizer Insert, Blue", "amazon_price": 16.99},
+  "LC-CJNS271383901AZ": {"cj_sku": "CJNS271383901AZ", "name": "Travel Toiletry Bag, Beige", "amazon_price": 35.99}
+}
