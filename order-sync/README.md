@@ -26,7 +26,7 @@ Every Amazon order is recorded in SQLite, so it is never ordered twice.
 ## Commands
 
 ```bash
-python -m bublu check-cj   # CJ login + wallet + price/stock/shipping/margin for all 17 SKUs
+python -m bublu check-cj   # CJ login + wallet + price/stock/shipping/margin for every mapped SKU
 python -m bublu run        # process new Amazon orders, then sync tracking
 python -m bublu track      # tracking sync only
 python -m pytest -q        # offline tests (no keys needed)

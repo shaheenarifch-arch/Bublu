@@ -128,7 +128,7 @@ def test_tracking_is_sent_to_amazon(tmp_path):
 def test_sku_map_matches_listing_convention():
     from bublu.runner import load_sku_map
     m = load_sku_map(Settings().sku_map_path)
-    assert len(m) == 17
+    assert len(m) == 20
     for amazon_sku, v in m.items():
         assert amazon_sku == "LC-" + v["cj_sku"]
         assert margin(v["amazon_price"], v["amazon_price"] * 0.55, 0.15) >= 0.29
